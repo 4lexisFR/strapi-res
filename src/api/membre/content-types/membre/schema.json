@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "membres",
+  "info": {
+    "singularName": "membre",
+    "pluralName": "membres",
+    "displayName": "membre",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "pseudo": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "evenements",
+  "info": {
+    "singularName": "evenement",
+    "pluralName": "evenements",
+    "displayName": "evenement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "miniature": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "dateFin": {
+      "type": "datetime"
+    },
+    "lien": {
+      "type": "string"
+    }
+  }
+}
