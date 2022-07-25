@@ -12,18 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "lien": {
+      "type": "string"
+    },
+    "image": {
       "type": "string"
     }
   }

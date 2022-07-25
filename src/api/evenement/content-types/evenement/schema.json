@@ -21,21 +21,13 @@
     "date": {
       "type": "datetime"
     },
-    "miniature": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "dateFin": {
       "type": "datetime"
     },
     "lien": {
+      "type": "string"
+    },
+    "miniature": {
       "type": "string"
     }
   }

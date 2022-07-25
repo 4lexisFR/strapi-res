@@ -18,22 +18,14 @@
     "description": {
       "type": "text"
     },
-    "miniature": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "date": {
       "type": "date"
     },
     "clicks": {
       "type": "integer"
+    },
+    "miniature": {
+      "type": "string"
     }
   }
 }

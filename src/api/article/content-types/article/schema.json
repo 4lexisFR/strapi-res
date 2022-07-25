@@ -15,19 +15,11 @@
     "nom": {
       "type": "string"
     },
-    "photo": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "prix": {
       "type": "decimal"
+    },
+    "photo": {
+      "type": "string"
     }
   }
 }
